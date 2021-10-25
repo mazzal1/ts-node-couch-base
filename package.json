@@ -1,0 +1,43 @@
+{
+  "name": "ts-node-couch-base",
+  "version": "0.0.1",
+  "description": "Example project using CouchDB with Node and TypeScript",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "mocha -r ts-node/register 'tests/**/*.ts'",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mazzal1/ts-node-couch-base.git"
+  },
+  "keywords": [
+    "CouchDB",
+    "Node",
+    "TypeScript"
+  ],
+  "author": {
+    "name": "Luca Mazzon"
+  },
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/mazzal1/ts-node-couch-base/issues"
+  },
+  "homepage": "https://github.com/mazzal1/ts-node-couch-base#readme",
+  "dependencies": {
+    "pouchdb": "^7.2.2",
+    "pouchdb-find": "^7.2.2",
+    "ts-command-line-args": "^2.1.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/pouchdb": "^6.4.0",
+    "@types/uuid": "^8.3.1",
+    "typescript": "^4.4.4"
+  },
+  "engines": {
+    "node": "14",
+    "npm": "6"
+  }
+}
