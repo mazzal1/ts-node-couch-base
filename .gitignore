@@ -1,0 +1,14 @@
+## MacOS
+.DS_Store
+
+## Node
+node_modules/
+
+## Build
+dist/
+build/
+
+## Config files
+etc/
+
+
